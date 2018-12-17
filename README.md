@@ -1,4 +1,9 @@
-# BlogExercice
+
+
+![Angular Blog](https://raw.githubusercontent.com/HalasProject/AngularBlog/master/BlogAngular.gif)
+
+
+# TestAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
