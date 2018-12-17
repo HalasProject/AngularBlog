@@ -1,0 +1,19 @@
+<br>
+<div class="pagination-centered">
+<div [ngClass]="{'card text-black mb-3':true,
+                 'bg-light': loveit === 0,
+                 'alert-danger': !isSup(),
+                 'alert-success': isSup()}">
+  <div class="card-header text-right"> <h6>{{createdAt | date:'MM/dd/yyyy, hh:mm aa'}}</h6></div>
+  <div class="card-body">
+    <h5 class="card-title">{{title}} | {{loveit}}</h5>
+    <p class="card-text">{{content}}</p>
+    
+    <button (click)="onLove()" class="btn btn-success" style="margin-right:10px">Love !</button>
+    <button (click)="onDontLove()" class="btn btn-danger">Don't Love !</button>
+
+  </div>
+</div>
+  </div>
+  <hr>
+ 
