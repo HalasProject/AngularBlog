@@ -32,12 +32,5 @@ export class AppComponent {
     }
   ];
 
- getAll(){
-   return this.Posts;
- }
-  
-  
-
-
 
 }
