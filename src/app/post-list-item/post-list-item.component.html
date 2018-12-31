@@ -9,9 +9,18 @@
     <h5 class="card-title">{{title}} | {{loveit}}</h5>
     <p class="card-text">{{content}}</p>
     
-    <button (click)="onLove()" class="btn btn-success" style="margin-right:10px">Love !</button>
-    <button (click)="onDontLove()" class="btn btn-danger">Don't Love !</button>
 
+    <div class="d-flex bd-highlight mb-3">
+        <div class="p-2 bd-highlight"><button (click)="onLove(Index)" class="btn btn-success" style="margin-right:10px">Love !</button></div>
+        <div class="p-2 bd-highlight"> <button (click)="onDontLove(Index)" class="btn btn-danger">Don't Love !</button></div>
+        <div class="ml-auto p-2 bd-highlight"> <button (click)="onDelete(Index)" class="btn btn-danger">Supprimer X</button></div>
+      </div>
+
+
+    
+   
+
+   
   </div>
 </div>
   </div>
