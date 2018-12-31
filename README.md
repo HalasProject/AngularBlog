@@ -1,6 +1,6 @@
 
 
-![Angular Blog](https://raw.githubusercontent.com/HalasProject/AngularBlog/master/BlogAngular.gif)
+![Angular Blog](https://raw.githubusercontent.com/HalasProject/AngularBlog/master/BlogAngularFinal.gif)
 
 
 # AngularBlog
